@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER NGINX Docker Maintainers "docker-maint@nginx.com"
+LABEL maintainer="Alexey Chernetsov <chernetsov0@gmail.com"
 
 ENV NGINX_VERSION 1.12.0
 
