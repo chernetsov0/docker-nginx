@@ -1,9 +1,15 @@
-# About this Repo
+### docker-nginx-alpine
 
-This is the Git repo of the official Docker image for [nginx](https://registry.hub.docker.com/_/nginx/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
+This is the fork of the official [NGINX Docker image](https://registry.hub.docker.com/_/nginx/).
+Only Alpine Linux images are present and Alpine version is updated to 3.6.
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/nginx](https://github.com/docker-library/docs/tree/master/nginx).
+**This repository wasn't throughly tested. Upgrading distro can break things. Use with caution.**
 
+**Do not contact authors of original image regarding any issues with this project.
+Use issue tracker on GitHub page for this image instead.**
+
+See the original image Hub page for the full readme.
+Contact me for information regarding contributing.
+Issues are tracked on GitHub.
+
+The full readme is also located in  [docker-library/docs/nginx](https://github.com/docker-library/docs/tree/master/nginx).
